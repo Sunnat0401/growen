@@ -39,7 +39,7 @@ export function Hero({ t }: HeroProps) {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4 sm:pt-6">
             <Button 
               size="icon" 
-              className="w-[200px] h-[50px] sm:w-auto  transition-all duration-300 bg-transparent"
+              className="w-[200px] h-[50px]   transition-all duration-300 bg-transparent"
               // onClick={() => document.getElementById('detection')?.scrollIntoView({ behavior: 'smooth' })}
             >
               <img src="/Apple.svg" alt="Apple.svg" />
@@ -47,7 +47,7 @@ export function Hero({ t }: HeroProps) {
             <Button 
             size="icon"
               variant="outline"
-              className="w-[200px] h-[50px] sm:w-auto  transition-all duration-300"
+              className="w-[200px] h-[50px]  transition-all duration-300"
               // onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
             >
                 <img src="/Google.svg" alt="Google.svg" />
