@@ -521,8 +521,8 @@ export const translations = {
 
   uz: {
     nav: {
-      home: "Bosh sahifa",
-      about: "Biz haqimizda",
+      home: "",
+      about: "Haqimizda",
       features: "Imkoniyatlar",
       contact: "Aloqa",
     },
@@ -604,14 +604,14 @@ export const translations = {
         "Qishloq xo'jaligi kasalliklarini aniqlash uchun sun'iy intellekt asosidagi ilg'or platforma",
       rights: "Barcha huquqlar himoyalangan.",
       links: {
-        privacy: "Maxfiylik siyosati",
-        terms: "Foydalanish shartlari",
-        support: "Qo'llab-quvvatlash / Aloqa",
-        delete: "Hisob / Ma'lumotlarni o'chirish",
+        privacy: "Maxfiylik ",
+        terms: "Shartlarimiz",
+        support: " Aloqa",
+        delete: "Hisob",
       },
       modalTitles: {
-        privacy: "Maxfiylik siyosati",
-        terms: "Foydalanish shartlari",
+        privacy: "Maxfiylik ",
+        terms: "Shartlarimiz",
         support: "Qo'llab-quvvatlash",
         delete: "Hisob / Ma'lumotlarni o'chirish",
       },
