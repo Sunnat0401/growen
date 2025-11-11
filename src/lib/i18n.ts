@@ -364,8 +364,8 @@ export const translations = {
       links: {
         privacy: "Privacy Policy",
         terms: "Terms of Service",
-        support: "Support / Contact",
-        delete: "Account / Data Deletion",
+        support: " Contact",
+        delete: "Account",
       },
       modalTitles: {
         privacy: "Privacy Policy",
@@ -400,7 +400,7 @@ export const translations = {
 
   ru: {
     nav: {
-      home: "Главная",
+      home: "",
       about: "О нас",
       features: "Возможности",
       contact: "Контакты",
@@ -483,14 +483,14 @@ export const translations = {
         "Продвинутая платформа на базе ИИ для обнаружения сельскохозяйственных болезней",
       rights: "Все права защищены.",
       links: {
-        privacy: "Политика конфиденциальности",
-        terms: "Условия использования",
-        support: "Поддержка / Контакты",
-        delete: "Удаление аккаунта / данных",
+        privacy: "Kонфиденциальности",
+        terms: "Наши условия",
+        support: "  Контакты",
+        delete: " данных",
       },
       modalTitles: {
         privacy: "Политика конфиденциальности",
-        terms: "Условия использования",
+        terms: "Наши условия",
         support: "Поддержка",
         delete: "Удаление аккаунта / данных",
       },

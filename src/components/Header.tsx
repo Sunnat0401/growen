@@ -65,7 +65,7 @@ export function Header({ currentLang, onLanguageChange, t }: HeaderProps) {
           </Link>
 
           {/* Desktop navigation */}
-          <nav className="hidden md:flex items-center gap-4 lg:gap-6 animate-fade-in">
+          <nav className="hidden max-w-[1170px]:flex items-center gap-4 lg:gap-6 animate-fade-in">
             {navItems.map((item) =>
               item.href.startsWith("/#") ? (
                 <a
