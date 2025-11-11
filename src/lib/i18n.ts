@@ -77,7 +77,20 @@ export const translations = {
       description: 'Advanced AI-powered platform for agricultural disease detection',
       rights: 'All rights reserved.',
     },
+    contact: {
+      title: "Contact Us",
+      subtitle: "Leave your contact info and we‘ll get back to you.",
+      name: "Name",
+      phone: "Phone",
+      message: "Message",
+      send: "Send",
+      sending: "Sending...",
+      success: "Message sent successfully!",
+      error: "Please fill in all fields correctly.",
+      telegramError: "Failed to send to Telegram.",
+    },
   },
+
   ru: {
     nav: {
       home: 'Главная',
@@ -154,7 +167,20 @@ export const translations = {
       description: 'Продвинутая платформа на базе ИИ для обнаружения сельскохозяйственных болезней',
       rights: 'Все права защищены.',
     },
+    contact: {
+      title: "Связаться с нами",
+      subtitle: "Оставьте свои контактные данные и мы свяжемся с вами.",
+      name: "Имя",
+      phone: "Телефон",
+      message: "Сообщение",
+      send: "Отправить",
+      sending: "Отправка...",
+      success: "Сообщение успешно отправлено!",
+      error: "Пожалуйста, заполните все поля корректно.",
+      telegramError: "Не удалось отправить в Telegram.",
+    },
   },
+
   uz: {
     nav: {
       home: 'Bosh sahifa',
@@ -231,9 +257,21 @@ export const translations = {
       description: "Qishloq xo'jaligi kasalliklarini aniqlash uchun sun'iy intellekt asosidagi ilg'or platforma",
       rights: 'Barcha huquqlar himoyalangan.',
     },
+    contact: {
+      title: "Biz bilan bog‘laning",
+      subtitle: "Kontakt ma'lumotingizni qoldiring, tez orada javob beramiz.",
+      name: "Ism",
+      phone: "Telefon",
+      message: "Xabar",
+      send: "Yuborish",
+      sending: "Yuborilmoqda...",
+      success: "Xabar muvaffaqiyatli yuborildi!",
+      error: "Iltimos, barcha maydonlarni to‘g‘ri to‘ldiring.",
+      telegramError: "Telegramga yuborib bo'lmadi.",
+    },
   },
 };
 
 export function useTranslation(lang: Language) {
-  return translations[lang];
+  return translations[lang] || translations.en;
 }
